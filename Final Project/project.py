@@ -110,6 +110,7 @@ def segment_characters(image):
             if(rev[i].isalnum() or rev[i] == ' '):
                 print(rev[i], end='')
                 fileobj.write(rev[i])
+        input()
         fileobj.close()
         sys.exit(0)
     # Get contours within cropped license plate
